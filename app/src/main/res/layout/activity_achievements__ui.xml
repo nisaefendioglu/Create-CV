@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnr_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <include layout="@layout/toolbar_menu" />
+
+    <include layout="@layout/facebook_ad_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/achievements_title" />
+
+    <EditText
+        android:id="@+id/awardName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/awardName" />
+
+    <EditText
+        android:id="@+id/dateeOfAward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="@string/dateeAward" />
+
+    <TextView
+        android:id="@+id/tv_dateOfAward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dateeAward"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="4dp"
+        android:alpha="0.5"
+        android:layout_marginRight="4dp"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/didForAchieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/didToAchieve" />
+
+
+</LinearLayout>

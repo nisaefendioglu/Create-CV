@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnr_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apps.resumebuilderapp.objective.Objective">
+
+    <include layout="@layout/toolbar_menu" />
+    <include layout="@layout/facebook_ad_view" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/objectiveDiscription"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/objective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/objective"
+        android:inputType="textMultiLine">
+
+        <requestFocus />
+    </EditText>
+
+
+</LinearLayout>

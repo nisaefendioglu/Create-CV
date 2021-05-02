@@ -1,0 +1,328 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.cvolustur.madeturkey"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-sdk -->
+12    <!-- android:minSdkVersion="24" -->
+13    <!-- android:targetSdkVersion="27" -->
+14    <!-- tools:ignore="GradleOverrides" /> -->
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:11:5-60
+16-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:11:19-57
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:13:5-67
+18-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:14:5-79
+19-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:15:5-81
+20-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:16:5-80
+21-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:16:22-77
+22
+23    <application
+23-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:18:5-190:19
+24        android:name="com.apps.resumebuilderapp.utils.MyApplication"
+24-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:19:9-69
+25        android:allowBackup="false"
+25-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:20:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:hardwareAccelerated="true"
+27-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:21:9-43
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:22:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:23:9-41
+30        android:supportsRtl="true"
+30-->[com.auron:permission-manage:1.1.7] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d172399e732353f68bf15f09c82f7602\jetified-permission-manage-1.1.7\AndroidManifest.xml:37:9-35
+31        android:theme="@style/SplashTheme"
+31-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:24:9-43
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:25:9-44
+33        <meta-data
+33-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:28:9-30:69
+34            android:name="com.google.android.gms.version"
+34-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:29:13-58
+35            android:value="@integer/google_play_services_version" />
+35-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:30:13-66
+36
+37        <provider
+38            android:name="androidx.core.content.FileProvider"
+38-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:33:13-62
+39            android:authorities="com.app.cvolustur.madeturkey.provider"
+39-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:34:13-60
+40            android:exported="false"
+40-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:35:13-37
+41            android:grantUriPermissions="true" >
+41-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:36:13-47
+42            <meta-data
+42-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:37:13-39:58
+43                android:name="android.support.FILE_PROVIDER_PATHS"
+43-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:38:17-67
+44                android:resource="@xml/provider_paths" />
+44-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:39:17-55
+45        </provider>
+46
+47        <activity
+47-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:42:9-51:20
+48            android:name="com.apps.resumebuilderapp.main.SplashActivity"
+48-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:43:13-48
+49            android:label="@string/app_name"
+49-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:44:13-45
+50            android:theme="@style/SplashTheme" >
+50-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:45:13-47
+51            <intent-filter>
+51-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:46:13-50:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:47:17-69
+52-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:47:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:49:17-77
+54-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:49:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:52:9-60:20
+58            android:name="com.apps.resumebuilderapp.setting.OrderSectionsActivity"
+58-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:53:13-58
+59            android:label="Set Orders" >
+59-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:54:13-39
+60
+61            <!--
+62             <intent-filter>
+63                 <action android:name="android.intent.action.MAIN" />
+64
+65                 <category android:name="android.intent.category.LAUNCHER" />
+66             </intent-filter>
+67            -->
+68        </activity>
+69        <activity
+69-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:62:9-71:20
+70            android:name="com.apps.resumebuilderapp.main.MainActivity"
+70-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:63:13-46
+71            android:label="@string/app_name"
+71-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:64:13-45
+72            android:theme="@style/SplashTheme" >
+72-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:65:13-47
+73
+74            <!-- <intent-filter> -->
+75            <!-- <action android:name="android.intent.action.MAIN" /> -->
+76
+77
+78            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+79            <!-- </intent-filter> -->
+80        </activity>
+81        <activity
+81-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:73:9-76:50
+82            android:name="com.apps.resumebuilderapp.main.LockActivity"
+82-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:74:13-46
+83            android:label="@string/app_name"
+83-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:75:13-45
+84            android:theme="@style/AppThemePin" />
+84-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:76:13-47
+85        <activity
+85-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:78:9-80:68
+86            android:name="com.apps.resumebuilderapp.personalInfo.Profile_Info"
+86-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:79:13-54
+87            android:label="@string/title_activity_profile__info" />
+87-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:80:13-65
+88        <activity
+88-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:82:9-84:64
+89            android:name="com.apps.resumebuilderapp.objective.Objective"
+89-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:83:13-48
+90            android:label="@string/title_activity_objective" />
+90-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:84:13-61
+91        <activity
+91-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:86:9-88:75
+92            android:name="com.apps.resumebuilderapp.professionalSummary.Professional_summaryActivity"
+92-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:87:13-77
+93            android:label="@string/title_activity_professional_summary" />
+93-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:88:13-72
+94        <activity
+94-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:90:9-92:84
+95            android:name="com.apps.resumebuilderapp.professionalSummary.Professional_summary_fragment"
+95-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:91:13-78
+96            android:label="@string/title_activity_professional_summary_fragment" />
+96-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:92:13-81
+97        <activity
+97-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:94:9-96:81
+98            android:name="com.apps.resumebuilderapp.professionalSummary.Professional_Summary_Ui_Activity"
+98-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:95:13-81
+99            android:label="@string/title_activity_professional__summary__ui_" />
+99-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:96:13-78
+100        <activity
+100-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:98:9-100:66
+101            android:name="com.apps.resumebuilderapp.exeperience.Experience_Activity"
+101-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:99:13-60
+102            android:label="@string/title_activity_experience_" />
+102-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:100:13-63
+103        <activity
+103-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:102:9-104:65
+104            android:name="com.apps.resumebuilderapp.exeperience.Experience_fragment"
+104-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:103:13-60
+105            android:label="@string/title_activity_experience" />
+105-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:104:13-62
+106        <activity
+106-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:106:9-108:78
+107            android:name="com.apps.resumebuilderapp.exeperience.Experience_Ui_activity"
+107-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:107:13-63
+108            android:label="@string/title_activity_experience__ui_activity" />
+108-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:108:13-75
+109        <activity
+109-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:110:9-112:65
+110            android:name="com.apps.resumebuilderapp.education.Education_Activity"
+110-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:111:13-57
+111            android:label="@string/title_activity_education_" />
+111-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:112:13-62
+112        <activity
+112-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:114:9-116:73
+113            android:name="com.apps.resumebuilderapp.education.Education_fragment"
+113-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:115:13-57
+114            android:label="@string/title_activity_education_fragment" />
+114-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:116:13-70
+115        <activity
+115-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:118:9-120:68
+116            android:name="com.apps.resumebuilderapp.education.Education_Ui"
+116-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:119:13-51
+117            android:label="@string/title_activity_education__ui" />
+117-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:120:13-65
+118        <activity
+118-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:122:9-124:70
+119            android:name="com.apps.resumebuilderapp.skills.Skills_activity"
+119-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:123:13-51
+120            android:label="@string/title_activity_skills_activity" />
+120-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:124:13-67
+121        <activity
+121-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:126:9-128:70
+122            android:name="com.apps.resumebuilderapp.skills.Skills_fragment"
+122-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:127:13-51
+123            android:label="@string/title_activity_skills_fragment" />
+123-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:128:13-67
+124        <activity
+124-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:130:9-132:64
+125            android:name="com.apps.resumebuilderapp.skills.Skills_ui"
+125-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:131:13-45
+126            android:label="@string/title_activity_skills_ui" />
+126-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:132:13-61
+127        <activity
+127-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:134:9-136:67
+128            android:name="com.apps.resumebuilderapp.achievements.Achievements"
+128-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:135:13-54
+129            android:label="@string/title_activity_achievements" />
+129-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:136:13-64
+130        <activity
+130-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:138:9-140:76
+131            android:name="com.apps.resumebuilderapp.achievements.Achievements_fragment"
+131-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:139:13-63
+132            android:label="@string/title_activity_achievements_fragment" />
+132-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:140:13-73
+133        <activity
+133-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:142:9-144:68
+134            android:name="com.apps.resumebuilderapp.achievements.Achievements_Activity"
+134-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:143:13-63
+135            android:label="@string/title_activity_achievements_" />
+135-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:144:13-65
+136        <activity
+136-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:146:9-148:80
+137            android:name="com.apps.resumebuilderapp.achievements.Achievements_Ui_activity"
+137-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:147:13-66
+138            android:label="@string/title_activity_achievements__ui_activity" />
+138-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:148:13-77
+139        <activity
+139-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:150:9-152:74
+140            android:name="com.apps.resumebuilderapp.references.ActivityReferences"
+140-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:151:13-58
+141            android:label="@string/title_activity_activity_references" />
+141-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:152:13-71
+142        <activity
+142-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:154:9-156:74
+143            android:name="com.apps.resumebuilderapp.references.ReferencesFragment"
+143-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:155:13-58
+144            android:label="@string/title_activity_references_fragment" />
+144-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:156:13-71
+145        <activity
+145-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:158:9-160:67
+146            android:name="com.apps.resumebuilderapp.references.ReferenceUi"
+146-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:159:13-51
+147            android:label="@string/title_activity_reference_ui" />
+147-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:160:13-64
+148        <activity
+148-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:162:9-164:71
+149            android:name="com.apps.resumebuilderapp.setting.Setting_activity"
+149-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:163:13-53
+150            android:label="@string/title_activity_setting_activity" />
+150-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:164:13-68
+151        <activity
+151-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:166:9-168:71
+152            android:name="com.apps.resumebuilderapp.setting.SettingFragment"
+152-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:167:13-52
+153            android:label="@string/title_activity_setting_fragment" />
+153-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:168:13-68
+154        <activity
+154-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:170:9-172:68
+155            android:name="com.apps.resumebuilderapp.setting.BrowseResumeActivity"
+155-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:171:13-57
+156            android:label="@string/title_activity_browse_resume" />
+156-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:172:13-65
+157        <activity
+157-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:174:9-176:77
+158            android:name="com.apps.resumebuilderapp.setting.BrowseResumeFragment"
+158-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:175:13-82
+159            android:label="@string/title_activity_browse_resume_fragment" />
+159-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:176:13-74
+160        <activity
+160-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:178:9-180:125
+161            android:name="com.google.android.gms.ads.AdActivity"
+161-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:179:13-65
+162            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+162-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:180:13-122
+163        <activity
+163-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:182:9-184:50
+164            android:name="com.apps.resumebuilderapp.utils.PinLockActivity"
+164-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:183:13-75
+165            android:theme="@style/AppThemePin" />
+165-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:184:13-47
+166
+167        <meta-data
+167-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:186:9-188:70
+168            android:name="com.google.android.gms.ads.APPLICATION_ID"
+168-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:187:13-69
+169            android:value="ca-app-pub-3940256099942544~3347511713" />
+169-->C:\Users\Lenovo\Desktop\Project\app\src\main\AndroidManifest.xml:188:13-67
+170
+171        <activity
+171-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:15:9-19:75
+172            android:name="com.facebook.ads.AudienceNetworkActivity"
+172-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:16:13-68
+173            android:configChanges="keyboardHidden|orientation|screenSize"
+173-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:17:13-74
+174            android:exported="false"
+174-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:18:13-37
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+175-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:19:13-72
+176
+177        <provider
+177-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:21:9-24:40
+178            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+178-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:22:13-75
+179            android:authorities="com.app.cvolustur.madeturkey.AudienceNetworkContentProvider"
+179-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:23:13-82
+180            android:exported="false" />
+180-->[com.facebook.android:audience-network-sdk:5.7.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49b67f172acf064a558c0281f85f5532\jetified-audience-network-sdk-5.7.0\AndroidManifest.xml:24:13-37
+181    </application>
+182
+183</manifest>

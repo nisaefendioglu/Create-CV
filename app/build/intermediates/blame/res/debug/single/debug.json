@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_settings.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_date_formats.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\dialog_date_formats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg2.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg9.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg9.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_orange.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\orange.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_professional_summary.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\professional_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_objective.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\objective.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_achievements_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_objective.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_objective.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg5.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg5.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_setting_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg6.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg6.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_references_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_references_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_professional_summary_ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\professional_summary_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_skills_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_skills_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_references.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_references.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_professional_summary_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\professional_summary_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_professional_summary_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\professional_summary_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_references.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_references.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_personal.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_personal.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_skills.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_skills.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg1.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_achievements.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_achievements.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_custom_theme.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\row_custom_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_option_menu_for_main_activity.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\option_menu_for_main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_professional_summary.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_professional_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_rect_border.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable\\bg_rect_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_experience.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\experience.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_browse_resume_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_browse_resume_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_education_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\education_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reference.jpg.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable\\reference.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_experience_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_experience_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reference_ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_reference_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements__ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_achievements__ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_educations.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_educations.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_profile__info.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\profile__info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg7.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg7.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg4.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg4.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile__info.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_profile__info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_font_color.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\popup_font_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements_activity.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_achievements_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_settings.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-mdpi\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_objective.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_objective.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_grayactivitybackgroung.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\grayactivitybackgroung.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_cover_letter.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_cover_letter.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_blue.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_experience_.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\experience_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_share.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-mdpi\\ic_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color_text_colors.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\color\\text_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_item_browse.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\menu_item_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_experience__ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_experience__ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_education.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_drag_view.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_drag_view.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg3.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg3.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_rect_border_gray.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable\\bg_rect_border_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bkg8.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\bkg8.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_browse_resume.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_browse_resume.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_skills_activity.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_skills_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_section.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_order_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_professional.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_professional.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_experience.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-nodpi\\ic_experience.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color_pin_line_colors.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\color\\pin_line_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_facebook_ad_view.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\facebook_ad_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settingbackground.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\settingbackground.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_item_del.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\menu_item_del.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pin_lock.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_pin_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_education__ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_education__ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_experience.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_experience.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_pin_round.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable\\bg_pin_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_menu.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\toolbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_drag_order_item.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\drag_order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_profilepic.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\drawable-ldpi\\profilepic.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_skills_ui.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\layout\\activity_skills_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_add_menu_fragment.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Project\\app\\src\\main\\res\\menu\\add_menu_fragment.xml"
+    }
+]

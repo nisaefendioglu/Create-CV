@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.auron:permission-manage:1.1.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c54f5d8a5879529ce3ed88943cc29a63/jetified-permission-manage-1.1.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c54f5d8a5879529ce3ed88943cc29a63/jetified-permission-manage-1.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c54f5d8a5879529ce3ed88943cc29a63/jetified-permission-manage-1.1.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.auron/permission-manage/1.1.7/7d6ecf8c43fd269e64c614410d3e4e81f2f7fa4f/permission-manage-1.1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.auron/permission-manage/1.1.7/880cb3be041b1a4aaf68090c48a2bb6c9dc6036a/permission-manage-1.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

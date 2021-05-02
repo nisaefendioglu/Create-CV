@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnr_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_menu" />
+
+        <include layout="@layout/facebook_ad_view" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/profileImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/picture"
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="3sp"
+                            android:background="@drawable/profilepic"
+                            android:clickable="true"
+                            android:contentDescription="@string/TODO"
+                            android:longClickable="true"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Profil Fotoğrafı"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_personal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/personalInfo"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/personalInfo"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/personalInfo"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/objective"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_objective" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/objective"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+
+                        <!--<Button-->
+                        <!--android:id="@+id/objective"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/green"-->
+                        <!--android:text="@string/objective"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalSummary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_professional" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/professionalSummary"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/personalSummary"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/yellow"-->
+                        <!--android:text="@string/professionalSummary"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/education"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_educations" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/education"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+
+                        <!--<Button-->
+                        <!--android:id="@+id/education"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/gray"-->
+                        <!--android:text="@string/education"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_experience" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/experience"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/experience"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/blue"-->
+                        <!--android:text="@string/experience"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/skills"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_skills" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/skills"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/skills"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/orange"-->
+                        <!--android:text="@string/skills"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/achievements"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_achievements" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/achievements"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/achievements"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/turquiose"-->
+                        <!--android:text="@string/achievements"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/references"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_references" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/references"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+
+                        <!--<Button-->
+                        <!--android:id="@+id/references"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/purple"-->
+                        <!--android:text="@string/references"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/coverletter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/TODO"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_cover_letter" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Add a professional cover letter"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/references_"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="250dp"-->
+                        <!--android:layout_marginBottom="3sp"-->
+                        <!--android:layout_marginTop="3sp"-->
+                        <!--android:background="@drawable/purple"-->
+                        <!--android:text="@string/references"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="23sp" />-->
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

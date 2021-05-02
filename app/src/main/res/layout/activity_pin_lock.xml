@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <include layout="@layout/facebook_ad_view" />
+
+    <!--<com.google.android.gms.ads.AdView-->
+    <!--android:id="@+id/adView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:visibility="gone"-->
+    <!--ads:adSize="SMART_BANNER"-->
+    <!--ads:adUnitId="@string/banner_ad_unit_id" />-->
+
+    <LinearLayout
+        android:id="@+id/lnr_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/enter_a_pin"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.apps.resumebuilderapp.utils.PinEntryEditText
+            android:id="@+id/pin_text"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@android:color/transparent"
+            android:textIsSelectable="false"
+            android:textSize="0px"
+            app:pinBackgroundDrawable="@drawable/bg_pin_round"
+            app:pinBackgroundIsSquare="true"
+            app:pinCharacterSpacing="0dp"
+            app:pinLineColors="@color/pin_line_colors"
+            app:pinTextBottomPadding="4dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/save"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

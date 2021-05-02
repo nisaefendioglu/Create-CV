@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <include layout="@layout/toolbar_menu" />
+    <include layout="@layout/facebook_ad_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/referenceTitle" />
+
+    <EditText
+        android:id="@+id/nameCoWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameofCoworker"
+        android:inputType="textPersonName">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailCoWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailofyourcoworker"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/contactOfCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contactofyourcoworker"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/companynameOfCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/companyNameCoWorker"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/designationCoWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/designationCoworker"
+        android:inputType="textPersonName"></EditText>
+
+    <EditText
+        android:id="@+id/howDidYouWorkWithHim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/howDidYouWorkWithHim"
+        android:inputType="textPersonName" />
+
+
+</LinearLayout>

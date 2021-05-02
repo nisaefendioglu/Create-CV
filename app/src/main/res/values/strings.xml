@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CV Oluştur</string>
+
+    <string name="interstitial_facebook" translatable="false">269141111010045_269145921009564</string>
+    <string name="banner_facebook" translatable="false">269141111010045_269142334343256</string>
+
+    <string name="font_arial">arial.ttf</string>
+    <string name="font_calibri">Calibri.ttf</string>
+    <string name="font_montserrat">Montserrat-Regular_0.otf</string>
+    <string name="font_opensans">OpenSans-Regular.ttf</string>
+
+    <string name="menu_new_job">"Yeni İş"</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="personalInfo">Kişisel Bilgi</string>
+    <string name="objective">Hedef</string>
+    <string name="professionalSummary">Profesyonel Özet</string>
+    <string name="experience">Deneyim</string>
+    <string name="education">Eğitim</string>
+    <string name="skills">Beceriler</string>
+    <string name="format">Tarih Formatını Ayarla</string>
+    <string name="reset">Sıfırla</string>
+    <string name="share">Paylaş</string>
+    <string name="achievements">Başarılar</string>
+    <string name="references">Referanslar</string>
+    <string name="save">Belgeyi Kaydet</string>
+    <string name="add">Ekle</string>
+    <string name="send">E-Posta Gönder</string>
+    <string name="TODO">Oluştur</string>
+    <string name="title_activity_profile__info">Profil Bilgisi</string>
+    <string name="discriptionPersonalInfoActivity">Kişisel bilgilerinizin ve iletişim bilgilerinizin doğru olduğundan emin olun. Bu bilgiler işverenlerin sizinle iletişime geçmesine yardımcı olur.</string>
+    <string name="name">İsim</string>
+    <string name="present">Mevcut</string>
+    <string name="whatDidYouOverThere">Son Çalıştığın İş Yerinde Neler Yaptın?</string>
+    <string name="email">E-mail</string>
+    <string name="streetNo">Sokak Numarası/Sokak Adı</string>
+    <string name="city">Şehir</string>
+    <string name="setting">Ayarlar</string>
+    <string name="state">Durum</string>
+    <string name="menu_delete_job">Sil</string>
+    <string name="country">Ülke</string>
+    <string name="pinORZip">Pin/Zip</string>
+    <string name="contactNumber">İletişim Numarası</string>
+    <string name="dob">Doğum Tarihi</string>
+    <string name="title_activity_objective"></string>
+    <string name="objectiveDiscription">İlk izlenimiz için ilgilendiklerinizi anlatın.</string>
+    <string name="objectiveSave">Hedef Başarıyla Kaydedildi.</string>
+    <string name="profileSave">Profil Bilgileriniz Başarıyla Kaydedildi</string>
+    <string name="title_activity_professional_summary">Profesyonel Özet</string>
+    <string name="professionalSummarytitle">Profesyonel özetiniz iş deneyimlerinizdeki önemli noktaların kısa bir listesidir. İşe alma uzmanlarına daha önce yapmış olduğunuz işlere dair bilgiler verir.</string>
+    <string name="title_activity_professional_summary_fragment">Profesyonel Özet</string>
+    <string name="title_activity_professional__summary__ui_">Profesyonel Özet</string>
+    <string name="title_activity_experience_">Deneyim</string>
+    <string name="title_activity_experience">Deneyim</string>
+    <string name="title_activity_experience__ui_activity">Deneyim</string>
+    <string name="isThisYourCurrent">Mevcut İş</string>
+    <string name="experienceUiTitle">Listede göstermiş olduğunuz her işin başvurduğunuz iş ile ilgili olmasına özen gösterin. Birçok farklı iş alanında çalışma gösterdiyseniz bu alanları başvuracağınız işe göre ilişkilendirebilirsiniz. İlk olarak son deneyiminizi ekleyin ardından ilk deneyiminize doğru sıralayın. </string>
+    <string name="startDate">"Başlangıç Tarihi"</string>
+    <string name="endDate">"Bitiş Tarihi"</string>
+    <string name="schoolName">Okul Adı</string>
+    <string name="degree">Okuduğunuz Bölüm</string>
+    <string name="designation">"Tanımlama"</string>
+    <string name="companyName">Şirket Adı</string>
+    <string name="title_activity_education_">Eğitim</string>
+    <string name="title_activity_education_fragment">Eğitim</string>
+    <string name="title_activity_education__ui">Eğitim</string>
+    <string name="educationTitle">Listenize ilk olarak en yüksek eğitim seviyenizi ekleyin ardından diğer eğitim bilgilerinizi de ekleyin.</string>
+    <string name="title_activity_skills_activity">Beceriler</string>
+    <string name="title_activity_skills_fragment">Beceriler</string>
+    <string name="title_activity_skills_ui">Beceriler</string>
+    <string name="skillsTitle">Kısa ve hedeflenen bir beceri listesi işvereniniz için etkili olacaktır.</string>
+    <string name="title_activity_achievements">Başarılar</string>
+    <string name="title_activity_achievements_fragment">Başarılar</string>
+    <string name="title_activity_achievements_">Başarılar</string>
+    <string name="awardName">Başarınızın/Ödülünüzün Adı</string>
+    <string name="dateeAward">Ödül Tarihi</string>
+    <string name="didToAchieve">Bu Başarıyı Nasıl Elde Ettiniz?</string>
+    <string name="title_activity_achievements__ui_activity">Başarılar</string>
+    <string name="achievements_title">İşverenler iş verecekleri departmanlar için başarılı adaylar arar. Özgeçmişinize başarılarınızı da eklemek şansınızı arttıracaktır.</string>
+    <string name="title_activity_activity_references">Referanslar</string>
+    <string name="title_activity_references_fragment">Referanslar</string>
+    <string name="title_activity_reference_ui">Referanslar</string>
+    <string name="referenceTitle">Özgeçmişinizde bir referans gösterdiğinizde referans göstermiş olduğunuz kişinin bilgisi olduğundan emin olunuz.</string>
+    <string name="nameofCoworker">İş Arkadaşınızın Adı</string>
+    <string name="emailofyourcoworker">İş Arkadaşınızın E-Mail Adresi</string>
+    <string name="contactofyourcoworker">İş Arkadaşınızın İletişim Numarası</string>
+    <string name="companyNameCoWorker">Şirket Adı</string>
+    <string name="designationCoworker">İş Arkadaşınızın Adı</string>
+    <string name="howDidYouWorkWithHim">Birlikte Hangi Alanda Çalıştınız?</string>
+    <string name="title_activity_setting_activity">Ayarlar</string>
+    <string name="dateFormate">Tarih Formatını Ayarla</string>
+    <string name="resetApp">Uygulamayı Sıfırla</string>
+    <string name="title_activity_setting_fragment">Ayarlar</string>
+    <string name="hello_world">Merhaba Dünya!</string>
+    <string name="title_activity_browse_resume">Kaydedilen Özgeçmiş</string>
+    <string name="title_activity_browse_resume_fragment">Kaydedilen Özgeçmiş</string>
+    <string name="admob_banner_top_key">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_banner_bottom_key">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--Pin Lock-->
+    <string name="pin_lock">PIN Kilidi</string>
+    <string name="enter_a_pin">PIN Girin</string>
+    <string name="change_a_pin">PIN Kodunu Değiştir</string>
+    <string name="incorrect_pin">Geçersiz PIN Kodu!</string>
+    <string name="enter_a_valid_pin">PIN 4 haneli olmalıdır.</string>
+    <string name="pin_lock_must_selected">PIN değiştirme işlemini yalnızca PIN özelliği aktif iken yapabilirsiniz.</string>
+    <string name="security">Güvenlik</string>
+
+</resources>

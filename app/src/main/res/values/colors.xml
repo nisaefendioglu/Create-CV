@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#be63f9</color>
+    <color name="ColorPrimaryDark">#be63f9</color>
+    <color name="ColorAccent">#a6a6a6</color>
+    <color name="colorAccent">#a6a6a6</color>
+    <color name="colorAccent_">#C5CAE9</color>
+    <color name="colrLight">#E8EAF6</color>
+    <color name="green">#4CAF50</color>
+    <color name="defaultSilver">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a6a6a6</color>
+    <color name="white">#ffffff</color>
+    <color name="pin_normal">@color/ColorAccent</color>
+
+</resources>

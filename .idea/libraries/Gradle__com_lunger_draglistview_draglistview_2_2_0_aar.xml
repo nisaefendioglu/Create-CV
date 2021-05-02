@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lunger.draglistview:draglistview:2.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d64606e0f4d5a216d00857642ac85f3d/jetified-draglistview-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d64606e0f4d5a216d00857642ac85f3d/jetified-draglistview-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d64606e0f4d5a216d00857642ac85f3d/jetified-draglistview-2.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lunger.draglistview/draglistview/2.2.0/57025c005fbf896dc527632c04a6dd004398ece5/draglistview-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lunger.draglistview/draglistview/2.2.0/ef22ba8e82245cf6fdc0eee29fc4bca66e09cebf/draglistview-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
